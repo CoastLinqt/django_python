@@ -1,0 +1,197 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "Laptop",
+      "description": "",
+      "price": "1999.00",
+      "discount": 0,
+      "created_at": "2024-06-19T14:24:18.580Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Desktop",
+      "description": "",
+      "price": "2599.00",
+      "discount": 10,
+      "created_at": "2024-06-19T14:24:18.580Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 4,
+    "fields": {
+      "name": "first_update",
+      "description": "Hello world!",
+      "price": "54.00",
+      "discount": 3210,
+      "created_at": "2024-06-23T08:51:24.971Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "python",
+      "description": "hi great!",
+      "price": "1.14",
+      "discount": 21,
+      "created_at": "2024-06-23T10:12:26.101Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 6,
+    "fields": {
+      "name": "13",
+      "description": "213",
+      "price": "12.00",
+      "discount": 1,
+      "created_at": "2024-06-23T11:54:25.912Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 7,
+    "fields": {
+      "name": "table",
+      "description": "dsa",
+      "price": "1.00",
+      "discount": 10,
+      "created_at": "2024-06-23T12:32:03.303Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 9,
+    "fields": {
+      "name": "python",
+      "description": "new phone",
+      "price": "123.00",
+      "discount": 10,
+      "created_at": "2024-06-27T10:53:27.439Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 10,
+    "fields": {
+      "name": "new_create",
+      "description": "hello world",
+      "price": "1321.00",
+      "discount": 2,
+      "created_at": "2024-06-29T12:41:31.477Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 11,
+    "fields": {
+      "name": "hi",
+      "description": "dsadsa",
+      "price": "21.00",
+      "discount": 12,
+      "created_at": "2024-06-29T12:41:42.082Z",
+      "archived": false,
+      "created_by": 4
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 12,
+    "fields": {
+      "name": "dsa",
+      "description": "dsad",
+      "price": "123.00",
+      "discount": 123,
+      "created_at": "2024-06-29T12:49:09.912Z",
+      "archived": false,
+      "created_by": 2
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 13,
+    "fields": {
+      "name": "dasd",
+      "description": "dsa",
+      "price": "21.00",
+      "discount": 3,
+      "created_at": "2024-06-29T12:53:47.986Z",
+      "archived": false,
+      "created_by": 2
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 14,
+    "fields": {
+      "name": "eqw",
+      "description": "eqw",
+      "price": "123.00",
+      "discount": 132,
+      "created_at": "2024-06-29T13:04:50.941Z",
+      "archived": false,
+      "created_by": 2
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 15,
+    "fields": {
+      "name": "python new create",
+      "description": "dsada",
+      "price": "123.00",
+      "discount": 12,
+      "created_at": "2024-06-29T13:05:09.282Z",
+      "archived": false,
+      "created_by": 2
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 16,
+    "fields": {
+      "name": "dsa",
+      "description": "eqw",
+      "price": "12.00",
+      "discount": 12,
+      "created_at": "2024-06-29T14:11:31.602Z",
+      "archived": false,
+      "created_by": 2
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 17,
+    "fields": {
+      "name": "dsa",
+      "description": "dqewdsad",
+      "price": "123.00",
+      "discount": 31,
+      "created_at": "2024-06-29T14:15:23.865Z",
+      "archived": false,
+      "created_by": 4
+    }
+  }
+]

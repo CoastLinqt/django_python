@@ -1,0 +1,16 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+  Error page
+{% endblock %}
+
+{% block body %}
+  <div>
+      <p>You can't update someone else's product</p>
+  </div>
+<div>
+  <a href="{% url 'shopapp:products_list' %}">
+    Back to products list
+  </a>
+</div>
+{% endblock %}

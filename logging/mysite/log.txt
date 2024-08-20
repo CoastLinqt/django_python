@@ -1,0 +1,82 @@
+2024-07-15 11:40:52,226 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-15 11:40:54,433 [DEBUG] shopapp.views: Products for shop index: [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2024-07-15 11:40:54,434 [INFO] shopapp.views: Rendering shop index
+2024-07-15 11:40:59,556 [DEBUG] shopapp.views: Products for shop index: [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2024-07-15 11:40:59,557 [INFO] shopapp.views: Rendering shop index
+2024-07-15 11:41:00,214 [DEBUG] shopapp.views: Products for shop index: [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2024-07-15 11:41:00,214 [INFO] shopapp.views: Rendering shop index
+2024-07-15 11:41:06,472 [DEBUG] shopapp.views: Products for shop index: [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2024-07-15 11:41:06,473 [INFO] shopapp.views: Rendering shop index
+2024-07-15 11:41:06,879 [DEBUG] shopapp.views: Products for shop index: [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2024-07-15 11:41:06,880 [INFO] shopapp.views: Rendering shop index
+2024-07-15 11:41:19,952 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/logging/mysite/mysite/settings.py changed, reloading.
+2024-07-15 11:41:20,235 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-15 12:13:43,415 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-15 12:17:28,907 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/logging/mysite/mysite/settings.py changed, reloading.
+2024-07-15 12:17:29,958 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-15 12:17:43,386 [WARNING] django.request: Not Found: /
+2024-07-15 12:22:55,985 [WARNING] django.request: Not Found: /media/users/user_28/avatar_image/Снимок_экрана_от_2024-06-13_14-06-03_HdPdrVf.png
+2024-07-15 12:22:55,988 [WARNING] django.request: Not Found: /media/users/user_31/avatar_image/Снимок_экрана_от_2024-06-13_18-18-51.png
+2024-07-15 12:22:55,993 [WARNING] django.request: Not Found: /media/users/user_29/avatar_image/Снимок_экрана_от_2024-06-13_14-06-36_LivVbYP.png
+2024-07-15 12:22:56,007 [WARNING] django.request: Not Found: /media/users/user_27/avatar_image/Снимок_экрана_от_2024-06-13_14-21-11.png
+2024-07-15 12:22:56,028 [WARNING] django.request: Not Found: /media/users/user_30/avatar_image/Снимок_экрана_от_2024-06-13_14-20-22.png
+2024-07-15 14:28:03,727 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-15 14:28:06,276 [WARNING] django.request: Not Found: /
+2024-07-15 14:28:45,668 [WARNING] django.request: Not Found: /
+2024-07-15 14:28:49,647 [WARNING] django.request: Not Found: /media/products/product_23/preview/Снимок_экрана_от_2024-07-09_16-15-37.png
+2024-07-15 14:28:55,267 [ERROR] django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/logging/mysite/shopapp/views.py", line 254, in get
+    products_data = [{
+  File "/home/coastlineqt/PycharmProjects/python_django/logging/mysite/shopapp/views.py", line 259, in <listcomp>
+    "created_by": product.created_by.id
+AttributeError: 'NoneType' object has no attribute 'id'
+2024-07-15 14:30:25,521 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/logging/mysite/shopapp/views.py changed, reloading.
+2024-07-15 14:30:26,200 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-15 14:46:50,967 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-15 14:47:22,136 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/logging/mysite/shopapp/views.py changed, reloading.
+2024-07-15 14:47:23,230 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-15 14:47:32,522 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-15 14:47:32,756 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-15 14:47:32,898 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:47:32,999 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:47:33,097 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:47:33,195 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:47:33,301 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:47:46,422 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:47:46,540 [WARNING] django.request: Not Found: /media/products/product_23/preview/Снимок_экрана_от_2024-07-09_16-15-37.png
+2024-07-15 14:47:46,550 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:47:46,649 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:47:51,192 [ERROR] django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/logging/mysite/shopapp/views.py", line 263, in get
+    n = 1/0
+ZeroDivisionError: division by zero
+2024-07-15 14:47:51,262 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:47:51,366 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:48:32,687 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:50:06,933 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/logging/mysite/shopapp/views.py changed, reloading.
+2024-07-15 14:50:08,518 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-15 14:51:07,025 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-15 14:51:07,287 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:52:07,173 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-15 14:53:12,610 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/logging/mysite/shopapp/views.py changed, reloading.
+2024-07-15 14:53:13,487 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

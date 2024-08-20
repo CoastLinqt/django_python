@@ -1,0 +1,53 @@
+{% extends 'shopapp/base.html' %}
+
+{% load cache %}
+
+{% block title %}
+Order list user
+
+{% endblock %}
+{% block body %}
+
+<div>
+    {% if owner.pk == request.user.pk %}
+        {% if  owner.user_orders.all %}
+          {% cache 100 orderinfo owner.username %}
+             <h2> {{owner.username}}, ваши заказы:</h2>
+
+               {% for pk  in owner.user_orders.all %}
+
+
+               <p>
+                   <p><a href="{% url 'shopapp:order_detail' pk=pk.pk %}">Details #{{ pk.pk }}</a>
+               </p>
+
+               <p>
+                   Address: {{pk.delivery_address}}
+               </p>
+
+               <p>
+                   Created_by: {{pk.created_at}}
+               </p>
+           <br>
+               {% endfor %}
+
+          {% endcache %}
+       {% else %}
+          <h2>Not orders yet  </h2>
+       {% endif %}
+    {% else %}
+    <customErrors mode="Off"><error statusCode="404"></customErrors>
+
+     <h3>Not Found Users</h3>
+     <div>
+       <a href="{% url 'myauth:about-me' %}">
+        Back to about me
+       </a>>
+    </div>
+
+    {% endif %}
+
+</div>
+
+
+{% endblock %}

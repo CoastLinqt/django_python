@@ -1,0 +1,1364 @@
+2024-07-18 16:28:44,903 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 174, in get
+    context = self.get_context_data()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 309, in get_context_data
+    data["owner"] = User.objects.get(id=self.queryset.user.pk)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:28:44,974 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:28:45,061 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:28:45,132 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 174, in get
+    context = self.get_context_data()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 309, in get_context_data
+    data["owner"] = User.objects.get(id=self.queryset.user.pk)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:28:45,191 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:28:45,277 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:28:45,313 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 174, in get
+    context = self.get_context_data()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 309, in get_context_data
+    data["owner"] = User.objects.get(id=self.queryset.user.pk)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:28:45,379 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:28:45,466 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:21,948 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:29:22,041 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:22,856 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:29:23,782 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:29:23,810 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(self.queryset.user.pk)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:29:24,164 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:24,256 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:24,511 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(self.queryset.user.pk)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:29:24,583 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:24,680 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:33,472 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:29:33,513 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(queryset.user.pk)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:29:33,565 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:33,653 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:33,743 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:34,133 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:29:34,714 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:29:34,733 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(queryset.user.pk)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:29:34,998 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:35,086 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:35,282 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(queryset.user.pk)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:29:35,351 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:35,439 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:35,841 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(queryset.user.pk)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:29:35,914 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:36,002 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:41,571 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:29:41,660 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:42,117 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:29:42,695 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:29:42,985 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:29:43,568 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:31,143 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:30:31,248 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:32,005 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:30:32,863 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:30:32,895 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(queryset.user)
+AttributeError: 'QuerySet' object has no attribute 'user'
+2024-07-18 16:30:33,174 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:33,263 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:42,652 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:30:42,742 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:43,340 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:30:43,999 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:30:44,037 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(queryset.promocode)
+AttributeError: 'QuerySet' object has no attribute 'promocode'
+2024-07-18 16:30:44,297 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:44,393 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:44,463 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(queryset.promocode)
+AttributeError: 'QuerySet' object has no attribute 'promocode'
+2024-07-18 16:30:44,543 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:44,650 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:44,905 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 304, in get_queryset
+    print(queryset.promocode)
+AttributeError: 'QuerySet' object has no attribute 'promocode'
+2024-07-18 16:30:44,944 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:45,058 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:54,872 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:30:54,970 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:55,508 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:30:55,897 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:30:56,187 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:56,426 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:30:56,912 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:14,166 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:31:14,266 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:14,366 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:14,708 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:31:15,128 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:31:15,380 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:15,620 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:16,086 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:16,485 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:42,348 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:31:42,437 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:42,844 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:31:43,912 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:31:44,185 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:54,303 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:31:54,343 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:54,432 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:31:54,791 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:31:59,422 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:31:59,670 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:00,005 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:15,446 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:32:15,540 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:16,222 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:32:17,221 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:32:17,506 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:17,640 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:18,175 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:20,455 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:20,917 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:50,416 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:32:50,509 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:50,868 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:32:51,807 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:32:52,118 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:52,434 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:52,825 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:53,109 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:53,322 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:53,511 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:53,708 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:53,919 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:54,121 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:54,358 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:54,519 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:32:57,144 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:07,498 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:33:07,528 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:07,622 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:08,117 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:33:08,504 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:33:08,806 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:08,895 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:08,984 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:09,084 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:09,314 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:23,691 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:33:23,780 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:24,194 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:33:24,895 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:33:25,206 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:25,300 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:25,889 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:26,202 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:26,446 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:26,694 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:26,941 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:27,160 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:27,380 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:27,598 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:27,826 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:28,080 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:28,255 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:28,476 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:28,659 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:28,862 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:29,684 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:44,484 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:45,886 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:47,008 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:53,007 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:53,104 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:57,091 [WARNING] django.request: Not Found: /ru/shop/users/32/orders/
+2024-07-18 16:33:57,133 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:33:57,229 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:04,504 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:06,494 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:06,978 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:07,438 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:07,746 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:07,978 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:08,225 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:08,433 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:08,678 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:08,892 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:09,135 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:09,365 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:09,707 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:10,020 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:10,484 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:10,926 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:14,433 [WARNING] django.request: Not Found: /media/users/user_27/avatar_image/Снимок_экрана_от_2024-06-13_14-21-11.png
+2024-07-18 16:34:14,460 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:14,556 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:16,919 [WARNING] django.request: Not Found: /media/users/user_27/avatar_image/Снимок_экрана_от_2024-06-13_14-21-11.png
+2024-07-18 16:34:16,964 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:17,057 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:17,326 [WARNING] django.request: Not Found: /media/users/user_27/avatar_image/Снимок_экрана_от_2024-06-13_14-21-11.png
+2024-07-18 16:34:17,378 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:17,475 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:18,756 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:20,512 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:20,977 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:21,261 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:21,480 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:21,740 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:21,970 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:22,229 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:22,443 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:25,045 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:34:36,753 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:34:37,298 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:34:50,746 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:34:51,124 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:36:56,952 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:36:57,319 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:36:57,529 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:36:58,201 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:37:00,005 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:37:57,136 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:41:00,127 [WARNING] django.request: Not Found: /media/users/user_27/avatar_image/Снимок_экрана_от_2024-06-13_14-21-11.png
+2024-07-18 16:41:00,153 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:41:00,247 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:41:01,458 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:41:02,889 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:41:57,314 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:42:57,260 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:42:57,365 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:47:53,839 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/urls.py changed, reloading.
+2024-07-18 16:47:54,681 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:47:57,867 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:47:58,254 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:47:58,351 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:48:58,010 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:50:56,283 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:50:57,231 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:50:59,346 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:50:59,647 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:51:01,541 [WARNING] django.request: Not Found: /media/users/user_27/avatar_image/Снимок_экрана_от_2024-06-13_14-21-11.png
+2024-07-18 16:51:01,561 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:51:01,646 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:51:03,990 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:51:06,707 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:51:39,247 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/urls.py changed, reloading.
+2024-07-18 16:51:39,335 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:51:39,673 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:51:40,329 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:51:40,428 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:51:40,636 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:51:40,734 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:51:41,201 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:51:41,271 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:51:41,367 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:40,630 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:40,918 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:52:41,602 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:52:41,919 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:52:41,976 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:52:42,191 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:42,281 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:42,565 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:52:42,645 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:42,737 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:43,145 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:52:43,219 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:43,309 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:57,108 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:52:57,199 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:57,575 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:52:58,234 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:52:58,299 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:52:58,652 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:58,746 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:58,831 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:52:58,911 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:59,007 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:59,333 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:52:59,416 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:52:59,510 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:34,503 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:53:34,602 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:34,959 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:53:35,582 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:53:35,641 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:53:35,964 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:36,060 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:36,166 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:53:36,250 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:36,348 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:36,718 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:53:36,804 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:36,900 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:47,591 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:53:47,691 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:48,087 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:53:48,344 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:53:48,414 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:53:48,616 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:48,705 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:48,972 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:53:49,038 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:53:49,126 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:09,660 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:54:09,687 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:54:09,755 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:09,847 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:09,934 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:10,436 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:54:11,187 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:54:11,267 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:54:11,447 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:11,536 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:11,635 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:54:11,710 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:11,799 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:29,105 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:54:29,195 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:29,542 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:54:30,207 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:54:30,280 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:54:30,514 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:30,603 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:30,825 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:54:30,887 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:30,976 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:41,113 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:54:41,202 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:41,830 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:54:42,300 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:54:42,570 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:42,823 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:43,333 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:43,765 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:44,122 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:44,404 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:54:44,913 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:55:32,966 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:55:33,059 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:55:33,521 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:55:34,218 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:55:34,279 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:55:34,568 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:55:34,653 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:55:34,874 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:55:34,931 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:55:35,017 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:56:34,472 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:56:49,207 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:56:49,629 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:56:49,938 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:56:50,003 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:56:50,206 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:56:50,313 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:56:50,696 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:56:50,766 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:56:50,860 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:56:51,606 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:56:51,677 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:56:51,771 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:01,059 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:57:01,154 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:01,610 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:57:02,282 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:57:02,357 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:57:02,597 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:02,685 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:02,788 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:57:02,846 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:02,939 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:16,272 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:57:16,360 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:16,837 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:57:17,671 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:57:17,741 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:57:17,947 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:18,043 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:18,293 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:57:18,367 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:18,456 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:18,798 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:57:18,871 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:18,961 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:19,330 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:57:19,405 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:19,493 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:28,292 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:57:28,381 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:28,697 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:57:29,546 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:57:29,617 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:57:29,815 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:29,909 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:30,204 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:57:30,286 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:30,380 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:37,707 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:55,178 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:57:55,214 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:55,310 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:57,260 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:57,924 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:57:58,386 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:08,830 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:58:08,925 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:09,557 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:58:10,181 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:58:10,558 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:10,656 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:19,114 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:58:19,204 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:19,526 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:58:20,571 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:58:20,852 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:21,073 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:26,922 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:58:27,017 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:27,489 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:58:28,178 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:58:28,455 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:28,850 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:29,379 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:37,016 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:58:37,114 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:37,210 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:38,056 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:58:38,830 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:58:39,153 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:41,204 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:58:41,268 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:58:41,358 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:59:38,981 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:59:50,743 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 16:59:51,065 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:59:51,550 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 16:59:51,610 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:59:51,835 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:59:51,932 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:59:52,183 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:59:52,263 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:59:52,360 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:59:52,655 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:59:52,741 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:59:52,837 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:59:53,171 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 16:59:53,250 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 16:59:53,349 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:00:25,994 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:00:26,124 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:00:26,753 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:00:27,537 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:00:27,616 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:00:27,900 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:00:28,026 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:00:28,180 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:00:28,254 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:00:28,371 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:00:28,675 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:00:28,753 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:00:28,845 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:09,842 [ERROR] django.request: Internal Server Error: /ru/shop/users/27/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:01:09,869 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:09,964 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:14,211 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:18,918 [ERROR] django.request: Internal Server Error: /ru/shop/users/28/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:01:18,980 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:19,071 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:20,609 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:27,265 [ERROR] django.request: Internal Server Error: /ru/shop/users/28/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:01:27,331 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:27,421 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:27,767 [ERROR] django.request: Internal Server Error: /ru/shop/users/28/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:01:27,813 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:27,901 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:27,995 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:28,212 [ERROR] django.request: Internal Server Error: /ru/shop/users/28/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:01:28,288 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:28,382 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:28,753 [ERROR] django.request: Internal Server Error: /ru/shop/users/28/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:01:28,819 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:28,910 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:29,292 [ERROR] django.request: Internal Server Error: /ru/shop/users/28/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:01:29,361 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:29,450 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:29,907 [ERROR] django.request: Internal Server Error: /ru/shop/users/28/orders/export
+Traceback (most recent call last):
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/coastlineqt/PycharmProjects/python_django/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: OrdersDataExportView.get() got an unexpected keyword argument 'pk'
+2024-07-18 17:01:29,978 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:01:30,066 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:02:27,872 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:02:49,553 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:02:50,424 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:02:51,835 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:02:52,106 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:02:52,856 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:02:57,352 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:02:59,998 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:03:00,091 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:03:00,542 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:03:07,904 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:03:08,407 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:03:09,850 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:03:10,138 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:03:10,502 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:03:49,444 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:03:49,541 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:03:49,815 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:03:51,283 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:03:51,650 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:03:51,882 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:03:52,535 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:03:55,110 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:03:55,919 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:03:56,445 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:04:51,442 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:06:59,695 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:07:00,824 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:07:08,648 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:07:08,968 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:08:03,799 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:08:03,892 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:08:04,482 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:08:05,264 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:08:05,678 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:08:05,773 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:08:25,264 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:08:25,354 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:08:25,631 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:08:28,936 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:08:29,229 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:09:29,095 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:13:27,497 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:13:29,253 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:14:52,102 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:14:53,895 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:15:19,748 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:15:20,483 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:15:21,713 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:15:22,053 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:22,372 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:52,381 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:52,415 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:15:52,502 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:53,436 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:15:54,686 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:15:54,949 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:55,814 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:56,281 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:56,646 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:56,931 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:57,159 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:57,393 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:57,612 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:57,808 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:58,010 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:58,211 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:15:58,393 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:12,192 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:16:12,281 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:13,230 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:16:14,030 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:16:14,295 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:14,391 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:14,486 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:14,713 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:15,042 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:15,247 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:16,213 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:16,655 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:16,859 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:17,111 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:22,906 [INFO] django.utils.autoreload: /home/coastlineqt/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2024-07-18 17:16:23,000 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:23,411 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:16:23,868 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): o4507152209018880.ingest.us.sentry.io:443
+2024-07-18 17:16:24,120 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:24,300 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:16:34,059 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0
+2024-07-18 17:17:24,023 [DEBUG] urllib3.connectionpool: https://o4507152209018880.ingest.us.sentry.io:443 "POST /api/4507606334242816/envelope/ HTTP/11" 200 0

@@ -1,0 +1,86 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 21,
+    "fields": {
+      "name": "New",
+      "description": "New",
+      "price": "12.00",
+      "discount": 100,
+      "created_at": "2024-07-09T15:02:27.295Z",
+      "archived": false,
+      "created_by": 33,
+      "preview": ""
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 22,
+    "fields": {
+      "name": "TestPhone",
+      "description": "New",
+      "price": "9999.00",
+      "discount": 10,
+      "created_at": "2024-07-11T10:36:02.429Z",
+      "archived": false,
+      "created_by": null,
+      "preview": ""
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 23,
+    "fields": {
+      "name": "TestPhone2",
+      "description": "PHONE",
+      "price": "4999.00",
+      "discount": 86,
+      "created_at": "2024-07-11T10:37:16.218Z",
+      "archived": false,
+      "created_by": null,
+      "preview": "products/product_23/preview/Снимок_экрана_от_2024-07-09_16-15-37.png"
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 24,
+    "fields": {
+      "name": "Smartphone 1",
+      "description": "",
+      "price": "199.00",
+      "discount": 10,
+      "created_at": "2024-07-14T14:45:35.074Z",
+      "archived": false,
+      "created_by": null,
+      "preview": ""
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 25,
+    "fields": {
+      "name": "Smartphone 2",
+      "description": "",
+      "price": "299.00",
+      "discount": 10,
+      "created_at": "2024-07-14T14:45:35.074Z",
+      "archived": false,
+      "created_by": null,
+      "preview": ""
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 26,
+    "fields": {
+      "name": "Smartphone 3",
+      "description": "",
+      "price": "399.00",
+      "discount": 10,
+      "created_at": "2024-07-14T14:45:35.074Z",
+      "archived": false,
+      "created_by": null,
+      "preview": ""
+    }
+  }
+]

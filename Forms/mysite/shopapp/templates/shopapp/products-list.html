@@ -1,0 +1,44 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+  Products list
+{% endblock %}
+
+{% block body %}
+ {% if perms.shopapp.view_product %}
+  <h1>Products</h1>
+  <div>
+    {% if products %}
+      <div>
+        {% for product in products %}
+        <div>
+          <p><a href="{% url 'shopapp:products_details' pk=product.pk %}"> Name: {{ product.name }}</a></p>
+          <p>Price: {{ product.price }}</p>
+          <p>Discount: {% firstof product.discount "no discount" %}</p>
+          <p>Created_by: {{ product.created_by}}</p>
+        </div>
+        <br>
+
+        {% endfor %}
+      </div>
+    {% else %}
+      <h3>No products yet</h3>
+    {% endif %}
+  </div>
+ {% else %}
+    <p>You don't have permission to do anything in the foo app. </p>
+ {% endif %}
+ {% if perms.shopapp.add_product %}
+    <div>
+      <a href="{% url 'shopapp:create_product' %}">
+        Back to products create
+      </a>
+    </div>
+  {% else %}
+    <p>You don't have permission to do anything in the foo app. <br>
+        You can't create a product. Add prem in user</p>
+ {% endif %}
+<br>
+
+
+{% endblock %}

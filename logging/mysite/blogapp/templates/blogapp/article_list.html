@@ -1,0 +1,45 @@
+{% extends 'blogapp/base.html' %}
+
+{% block title %}
+Article page
+{% endblock %}
+
+{% block body %}
+    <h1>Tags</h1>
+    <div>
+        {% if object_list %}
+            <div>
+                 {% for tags in  object_list.all %}
+                     <div>
+                        <h2> {{ tags.title }}</h2>
+
+                        <p>
+                            Дата публикации: {{tags.pub_date}}
+                        </p>
+                        <p>
+                            Имя автора: {{tags.author.name}}
+                        </p>
+                        <p>
+                            Категория: {{tags.category.name}}
+
+                        </p>
+                        <div>
+                            <p>Список тегов:</p>
+                            <ul>
+                                {% for tag in tags.tags.all%}
+                                    <li>{{tag.name}}</li>
+                                {% endfor %}
+                            </ul>
+
+                        </div>
+                     </div>
+                 {% endfor %}
+            </div>
+        {% else %}
+          <h2>No tags yet </h2>
+
+        {% endif %}
+
+    </div>
+
+{% endblock %}
